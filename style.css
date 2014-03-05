@@ -1,0 +1,32 @@
+h4 {
+	float: left;
+}
+
+ul {
+	float:right;
+}
+
+ul > li {
+	float: left;
+	list-style: none;
+}
+.clearfix{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+.header-wrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.sidebar {
+	float: left;
+
+}
+
+.content {
+	display:block;
+	border-left: 1px solid #ccc;
+}
